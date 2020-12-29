@@ -129,8 +129,8 @@ public class LRUCahce {
         if(null == node){
             if(data.size()>=size){
                 //删除链表头部的缓存数据
-                removeNode(head);
                 data.remove(head.getKey());
+                removeNode(head);
             }
             //将数据插入
             node = new Node(key,value);
