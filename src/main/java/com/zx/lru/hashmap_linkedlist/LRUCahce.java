@@ -143,8 +143,4 @@ public class LRUCahce {
             refreshNode(node);
         }
     }
-
-
-
-
 }
